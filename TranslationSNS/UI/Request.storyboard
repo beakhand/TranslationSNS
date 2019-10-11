@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Request View Controller-->
+        <!--Request-->
         <scene sceneID="Kw4-WT-518">
             <objects>
                 <viewController id="q1T-gm-7fL" customClass="RequestViewController" customModule="TranslationSNS" customModuleProvider="target" sceneMemberID="viewController">
@@ -18,6 +18,8 @@
                         <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="3tn-oX-77M"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Request" id="qlW-40-iWN"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CO0-xU-zf1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

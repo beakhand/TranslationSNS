@@ -16,6 +16,8 @@
 		E238CA23234ED8A40021B865 /* Request.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E238CA22234ED8A40021B865 /* Request.storyboard */; };
 		E2B1D31D234F7B380003F16E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B1D31C234F7B380003F16E /* HomeViewController.swift */; };
 		E2B1D31F234F7B590003F16E /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B1D31E234F7B590003F16E /* RequestViewController.swift */; };
+		E2B1D3212350B4540003F16E /* Response.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B1D3202350B4540003F16E /* Response.storyboard */; };
+		E2B1D3232350B5050003F16E /* MyPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B1D3222350B5050003F16E /* MyPage.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		E238CA22234ED8A40021B865 /* Request.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Request.storyboard; sourceTree = "<group>"; };
 		E2B1D31C234F7B380003F16E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E2B1D31E234F7B590003F16E /* RequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestViewController.swift; sourceTree = "<group>"; };
+		E2B1D3202350B4540003F16E /* Response.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Response.storyboard; sourceTree = "<group>"; };
+		E2B1D3222350B5050003F16E /* MyPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyPage.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 				E238CA1E234ED5AB0021B865 /* MainTab.storyboard */,
 				E238CA20234ED7400021B865 /* Home.storyboard */,
 				E238CA22234ED8A40021B865 /* Request.storyboard */,
+				E2B1D3202350B4540003F16E /* Response.storyboard */,
+				E2B1D3222350B5050003F16E /* MyPage.storyboard */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -177,6 +183,8 @@
 				E210120A234ED2A600DBF022 /* LaunchScreen.storyboard in Resources */,
 				E238CA21234ED7400021B865 /* Home.storyboard in Resources */,
 				E238CA23234ED8A40021B865 /* Request.storyboard in Resources */,
+				E2B1D3212350B4540003F16E /* Response.storyboard in Resources */,
+				E2B1D3232350B5050003F16E /* MyPage.storyboard in Resources */,
 				E238CA1F234ED5AB0021B865 /* MainTab.storyboard in Resources */,
 				E2101207234ED2A600DBF022 /* Assets.xcassets in Resources */,
 			);
