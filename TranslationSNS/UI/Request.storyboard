@@ -15,7 +15,19 @@
                     <view key="view" contentMode="scaleToFill" id="7Tn-7D-Xdo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ayP-JH-zPe">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ayP-JH-zPe" firstAttribute="top" secondItem="3tn-oX-77M" secondAttribute="top" id="872-hF-jzl"/>
+                            <constraint firstItem="3tn-oX-77M" firstAttribute="trailing" secondItem="ayP-JH-zPe" secondAttribute="trailing" id="OXE-Mn-qMH"/>
+                            <constraint firstItem="ayP-JH-zPe" firstAttribute="leading" secondItem="3tn-oX-77M" secondAttribute="leading" id="ZNB-kC-RTP"/>
+                            <constraint firstItem="3tn-oX-77M" firstAttribute="bottom" secondItem="ayP-JH-zPe" secondAttribute="bottom" id="her-gD-SfR"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="3tn-oX-77M"/>
                     </view>
                     <navigationItem key="navigationItem" title="Request" id="TzW-Fe-PlH"/>
