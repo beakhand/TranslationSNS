@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E21011FE234ED2A500DBF022 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21011FD234ED2A500DBF022 /* AppDelegate.swift */; };
-		E2101200234ED2A500DBF022 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21011FF234ED2A500DBF022 /* SceneDelegate.swift */; };
 		E2101207234ED2A600DBF022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2101206234ED2A600DBF022 /* Assets.xcassets */; };
 		E210120A234ED2A600DBF022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2101208234ED2A600DBF022 /* LaunchScreen.storyboard */; };
 		E238CA1F234ED5AB0021B865 /* MainTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E238CA1E234ED5AB0021B865 /* MainTab.storyboard */; };
@@ -23,7 +22,6 @@
 /* Begin PBXFileReference section */
 		E21011FA234ED2A500DBF022 /* TranslationSNS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TranslationSNS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E21011FD234ED2A500DBF022 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E21011FF234ED2A500DBF022 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E2101206234ED2A600DBF022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2101209234ED2A600DBF022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E210120B234ED2A600DBF022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -117,7 +115,6 @@
 			isa = PBXGroup;
 			children = (
 				E21011FD234ED2A500DBF022 /* AppDelegate.swift */,
-				E21011FF234ED2A500DBF022 /* SceneDelegate.swift */,
 			);
 			path = Delegate;
 			sourceTree = "<group>";
@@ -198,7 +195,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E21011FE234ED2A500DBF022 /* AppDelegate.swift in Sources */,
-				E2101200234ED2A500DBF022 /* SceneDelegate.swift in Sources */,
 				E2B1D31F234F7B590003F16E /* RequestViewController.swift in Sources */,
 				E2B1D31D234F7B380003F16E /* HomeViewController.swift in Sources */,
 			);
