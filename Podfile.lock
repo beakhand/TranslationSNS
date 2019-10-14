@@ -5,22 +5,26 @@ PODS:
   - RxRelay (5.0.0):
     - RxSwift (~> 5)
   - RxSwift (5.0.0)
+  - SwiftGen (6.1.0)
 
 DEPENDENCIES:
   - RxCocoa (~> 5)
   - RxSwift (~> 5)
+  - SwiftGen
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - RxCocoa
     - RxRelay
     - RxSwift
+    - SwiftGen
 
 SPEC CHECKSUMS:
   RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
   RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
   RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
+  SwiftGen: f872ca75cbd17bf7103c17f13dcfa0d9a15667b0
 
-PODFILE CHECKSUM: 5491ab925dbc41a4e6ae18e884b89a85521664f5
+PODFILE CHECKSUM: 0985e2aa15c72ef2ef819eeaa914348f45ef1c5b
 
 COCOAPODS: 1.5.3
