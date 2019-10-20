@@ -16,7 +16,32 @@
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
                 <rect key="frame" x="0.0" y="0.0" width="320" height="116"/>
                 <autoresizingMask key="autoresizingMask"/>
-                <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="C2L-S5-iYj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="42"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jVA-0P-XvX">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="42"/>
+                                <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="YVc-pO-VpQ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="jVA-0P-XvX" secondAttribute="trailing" id="IDB-G8-FUS"/>
+                            <constraint firstItem="jVA-0P-XvX" firstAttribute="leading" secondItem="C2L-S5-iYj" secondAttribute="leading" id="iXX-YA-eUw"/>
+                            <constraint firstItem="jVA-0P-XvX" firstAttribute="top" secondItem="C2L-S5-iYj" secondAttribute="top" id="sta-Qh-a05"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="C2L-S5-iYj" secondAttribute="trailing" id="Yik-bZ-HwT"/>
+                    <constraint firstItem="C2L-S5-iYj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="dNH-06-zOJ"/>
+                    <constraint firstAttribute="bottom" secondItem="C2L-S5-iYj" secondAttribute="bottom" id="mop-Hc-vdb"/>
+                    <constraint firstItem="C2L-S5-iYj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="v0L-i0-Qj3"/>
+                </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <point key="canvasLocation" x="137.68115942028987" y="131.91964285714286"/>
